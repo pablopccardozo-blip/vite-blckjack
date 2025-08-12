@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackjack-Vite</title>
+    <script type="module" crossorigin src="/assets/index-B9VQN4ZH.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-EB7HCPdR.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="text-center bg-dark text-light py-2">Blackjack</h1>
+    </header>
+
+    <div class="container py-2 text-white">
+      <div class="row">
+        <div class="col text-center">
+          <button id="new" class="btn btn-danger">Nuevo Juego</button>
+          <button id="pedir" class="btn btn-dark">Pedir Carta</button>
+          <button id="stop" class="btn btn-dark">Detener</button>
+        </div>
+      </div>
+      <!-- Juego del Jugador -->
+      <div class="row">
+        <div class="col">
+          <h2>Jugador 1 - <span>0</span></h2>
+
+          <div id="cartas-jugador"></div>
+        </div>
+      </div>
+
+      <!-- Juego de la Maquina -->
+      <div class="row mt-2">
+        <div class="col">
+          <h2>Computadora - <span>0</span></h2>
+
+          <div id="cartas-compu"></div>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
