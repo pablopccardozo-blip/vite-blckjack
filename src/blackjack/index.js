@@ -55,7 +55,7 @@ const moduloBlackjack = (() => {
       //--renderiza carta--
       const imgCarta = document.createElement("img");
       imgCarta.classList.add("img-carta");
-      imgCarta.src = `../assets/cartas/${carta}.png`;
+      imgCarta.src = `assets/cartas/${carta}.png`;
       cartasCompu.append(imgCarta);
       //--- muestra puntos ----
       const puntosCartaPedida = puntosCarta(carta);
