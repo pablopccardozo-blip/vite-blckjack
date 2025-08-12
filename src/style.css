@@ -1,0 +1,16 @@
+html, body{
+    margin: 0px;
+    background-color: #2f4f30;
+}
+
+.img-carta{
+    width: 150px;
+    position: relative;
+    left: 100px;
+    margin-left: -75px;
+}
+
+div#cartas-jugador,
+div#cartas-compu{
+    min-height: 200px;
+}
